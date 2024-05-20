@@ -121,10 +121,10 @@ while True:
         res_num = random_number(x, numbers)
 
     #Add all the characters to one list
-    password_characters = res_alpha + res_special + res_num 
+    pass_characters = res_alpha + res_special + res_num 
 
     #Shuffle the list
-    password = shuffle_list(password_characters)
+    password = shuffle_list(pass_characters)
     #Output the password 
     print(*password, sep = '')
     
